@@ -17,8 +17,8 @@ const Navbar = () => {
           window.screenTop(0, 0);
         }}>
           <img src="/src/assets/logo.png" alt="logo" className='w-20 h-20 object-contain' />
-          <p className='text-white text-[18px] font-bold cursor-pointer'>
-            Aditya Rai <span className='sm:block hidden'> |  Portfolio</span>
+          <p className='text-white text-[18px] font-bold cursor-pointer flex'>
+            Aditya Rai &nbsp; <span className='sm:block hidden'> |  Portfolio</span>
           </p>
         </Link>
         <ul className='list-none hidden sm:flex flex-row gap-10'>
